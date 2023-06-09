@@ -1,7 +1,7 @@
 using Photon.Pun;
 using UnityEngine;
 
-public class DeactivateIfNotMine : MonoBehaviourPunCallbacks
+public class DeactiveIfNotMine : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
     void Start()
