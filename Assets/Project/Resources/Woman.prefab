@@ -1042,6 +1042,7 @@ GameObject:
   - component: {fileID: 5918432280567433006}
   - component: {fileID: 5937649906504520792}
   - component: {fileID: 7447412914087544832}
+  - component: {fileID: 7345929785002762617}
   m_Layer: 8
   m_Name: Woman
   m_TagString: Player
@@ -1187,7 +1188,7 @@ MonoBehaviour:
   jump: 0
   sprint: 0
   analogMovement: 0
-  cursorLocked: 1
+  cursorLocked: 0
   cursorInputForLook: 1
 --- !u!114 &4416926081852918493
 MonoBehaviour:
@@ -1389,6 +1390,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 126494ae2a10a34499272ed97a6c9f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7345929785002762617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4416926081852918481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c69ccf0283b4a42ad4cad206442bef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  photonView: {fileID: 4491979752153333993}
+  PDFViewer: {fileID: 0}
+  isPresenter: 0
+  userPdfUrl: 
+  userPDFurlInput: {fileID: 0}
+  presenterButton: {fileID: 0}
 --- !u!1 &4523139366846529165
 GameObject:
   m_ObjectHideFlags: 0
